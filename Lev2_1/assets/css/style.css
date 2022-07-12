@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    border: 1px solid grey;
+    background-color: #d3d3d34a;
+    justify-content: space-between;
+    height: 8vh;
+
+}
+
+/* To include the number above the picture */
+.ar2>p {
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: 2vw;
+}
+
+.ar2 {
+    width: 50%;
+}
+
+.ar1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.ar1>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+    gap: 6vh;
+}
+
+.ar1>div {
+    margin-left: 5%;
+    margin-top: 2vh;
+}
+
+.art1>div>div>h4 {
+    font-weight: 800;
+}
+
+.ar1>div>div>p {
+    width: 80%;
+    word-spacing: 6px;
+    line-height: 3vh;
+}
+
+.ar2 img {
+    width: 100%;
+}
+
+.ar2>p>span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.buttomLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+    margin-top: 1%;
+}
+
+.buttomLeft>div {
+    display: flex;
+
+}
+
+.buttomRight p {
+    margin-top: 1px;
+}
+
+
+.buttomRight {
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+    margin-top: 1%;
+}

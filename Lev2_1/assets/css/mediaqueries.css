@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+    main {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ar1 {
+        width: 100%;
+    }
+
+    .ar2 {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 576px) {
+
+        main {
+
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .ar1 {
+            width: 100%;
+        }
+
+        .ar2 {
+            width: 100%;
+        }
+
+    }
+
+}

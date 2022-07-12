@@ -1,0 +1,58 @@
+@media only screen and (max-width: 768px) {
+
+    header {
+        width: 100%;
+        text-align: center;
+        ;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    article {
+        width: 270px;
+        text-align: center;
+    }
+
+    aside {
+        height: 125px;
+        width: 100%;
+
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    main {
+        display: flex;
+        display: column;
+    }
+
+    section {
+        display: block;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    section div {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+    main section div article {
+        width: 100%;
+    }
+
+}
